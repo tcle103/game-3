@@ -31,7 +31,7 @@ let config = {
     },
     width: 1440,
     height: 900,
-    scene: [Load, Title, Platformer],
+    scene: [Load, Title, Platformer,  End],
     frameRate: 30,
     type: Phaser.WEBGL
 }

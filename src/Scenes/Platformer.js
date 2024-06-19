@@ -152,7 +152,7 @@ class Platformer extends Phaser.Scene {
         this.physics.add.overlap(my.sprite.player, this.endGroup, (obj1, obj2) => {
             //console.log("hello");
             if (this.coins.length <= 0) {
-                this.scene.start("titleScene");
+                this.scene.start("endScene");
             }
         });
 
